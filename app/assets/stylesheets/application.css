@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+body {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  font-size: 40px;
+  color: red;
+  transition: all .7s;
+}
